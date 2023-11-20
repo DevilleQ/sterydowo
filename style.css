@@ -1,0 +1,147 @@
+/* Resetowanie domyślnych stylów */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ustawienia podstawowe */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: Black Ops One ;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produkty-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produkt-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Dodane dla pewności, aby zachować odstęp między produktami */
+    margin: 15px;
+    width: 256px;
+}
+
+.produkt-container img {
+    max-width: 100%;
+    height: auto; /* Dodane, aby zachować proporcje obrazu */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+}
+@keyframes animacja{
+    0%{left: 0%;}
+    20%{left: -100%;}
+    25%{left: -100%;}
+    45%{left: -200%;}
+    50%{left: -200%;}
+    70%{left: -300%;}
+    75%{left: -300%;}
+    95%{left: -400%;}
+    100%{left: -400%;}
+}
+#slider{
+    width: 100%;
+    height: 100%;overflow: hidden;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 30s animacja infinite;
+}
+.cart img{
+    position: fixed;
+    bottom: 75px;
+    right: 75px;
+}
+
+section h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+}
+main.log{
+    text-align: center;
+}
+main.reg{
+    text-align: center;
+}
+.produkty-w-koszyku{
+    margin: 50px;
+    box-align: center;
+}
+a.adtool{
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
